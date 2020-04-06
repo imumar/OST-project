@@ -1,5 +1,4 @@
 <?php
-//include auth_session.php file on all user panel pages
 include("session.php");
 ?>
 <!DOCTYPE html>
