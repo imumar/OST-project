@@ -25,7 +25,7 @@ VALUES ('$username', '".md5($password)."','$email')";
         if($result){
             echo "<div class='form'>
 <h3>Registered successfully.</h3>
-<br/>Click here to <a href='login.php'>Login</a></div>";
+<br/>Click here to <a href='login.php'> Login</a></div>";
         }
     }else{
 ?>
@@ -40,7 +40,7 @@ VALUES ('$username', '".md5($password)."','$email')";
 <input type="password" name="password" placeholder="Password" required />
 <input type="submit" name="submit" value="Register" />
 </form>
-<p>Already Registered? <a href='login.php'>Login here</a></p>
+<p>Already Registered ? <a href='login.php'> Login here</a></p>
 </div>
 <?php } ?>
 </body>
