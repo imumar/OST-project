@@ -10,8 +10,8 @@ include("session.php");
 </head>
 <body>
     <div class="form">
-        <h1>Welcome, <?php echo $_SESSION['username']; ?>!</h1>
-        <p><a href="logout.php">Logout</a></p>
+        <h1> Welcome, <?php echo $_SESSION['username']; ?>!</h1>
+        <p><a href="logout.php"> Logout</a></p>
     </div>
 </body>
 </html>
