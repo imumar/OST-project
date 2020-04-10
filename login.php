@@ -24,7 +24,7 @@ and password='".md5($password)."'";
 	    header("Location: welcome.php");
          }else{
 	echo "<div class='form'>
-<h3>Username/password is incorrect.</h3>
+<h3>Username/Password is incorrect.</h3>
 <br/>Click here to <a href='login.php'>Login</a></div>";
 	}
     }else{
@@ -36,7 +36,7 @@ and password='".md5($password)."'";
 <input type="password" name="password" placeholder="Password" required />
 <input name="submit" type="submit" value="Login" />
 </form>
-<p>Not registered yet? <a href='register.php'>Register Here</a></p>
+<p>Not registered yet ? <a href='register.php'>Register Here</a></p>
 </div>
 <?php } ?>
 </body>
